@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+Allow: /
+Disallow: /wp-admin/
+Disallow: /category/uncategorized/
+Disallow: /komanda/
+Disallow: /page/
+Disallow: /shop/
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://ludi.digital/sitemap.xml
+Sitemap: https://ludi.digital/sitemap.rss
+

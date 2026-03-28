@@ -1,0 +1,10 @@
+jQuery(function() {
+    jQuery(document).on('click', '.menu-item > a', function() {
+        jQuery( window ).trigger( {
+            type: 'jet-popup-close-trigger',
+            popupData: {
+                popupId: 'jet-popup-215'
+            }
+        });
+    })
+})
